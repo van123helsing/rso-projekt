@@ -1,0 +1,8 @@
+kumuluzee:
+  datasources:
+    - jndi-name: jdbc/SlikeDS
+      connection-url: jdbc:postgresql://localhost:5432/slike
+      username: postgres
+      password: postgres
+      pool:
+        max-size: 20
